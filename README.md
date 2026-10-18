@@ -92,18 +92,6 @@ Smart glasses that help blind users walk around obstacles. A thin **ESP32-S3** c
 
 <a href="https://github.com/ax1le28/assistive-vision-glasses"><img src="https://img.shields.io/badge/view_project-%E2%86%97-B8733F?style=for-the-badge&labelColor=161B22" alt="View project"></a>
 
-<a href="https://github.com/ax1le28/sketch2machine">
-  <img src="https://raw.githubusercontent.com/ax1le28/sketch2machine/main/docs/screenshots/workspace.png" width="100%" alt="Sketch2Machine workspace with an interactive state machine, issue analysis, and test coverage">
-</a>
-
-### Sketch2Machine &nbsp;<img src="https://img.shields.io/badge/status-MVP-A3B18A?style=flat-square&labelColor=161B22" alt="status MVP" align="center">
-
-Turn hand-drawn finite-state machine sketches into interactive simulations. Sketch2Machine recognizes diagrams with Claude Vision, lets you edit and run the machine, finds graph design issues, and generates tests with coverage. Built-in demos work without an API key; recognizing your own photos requires an Anthropic API key.
-
-`Java 21` `Claude Vision` `Cytoscape.js` `Maven` `JUnit 5`
-
-<a href="https://github.com/ax1le28/sketch2machine"><img src="https://img.shields.io/badge/view_project-%E2%86%97-B8733F?style=for-the-badge&labelColor=161B22" alt="View project"></a>
-
 <sub>more builds landing here soon.</sub>
 
 <br><br>
