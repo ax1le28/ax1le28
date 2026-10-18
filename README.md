@@ -19,10 +19,9 @@
 I build things where **software meets the physical world** — cameras, sensors, controllers, and the code that has to make sense of them. I like taking a messy problem to a working prototype, then making it reliable through debugging and testing. My strongest ground is **object-oriented programming**, **problem solving**, and **hands-on development** across software, embedded systems and industrial automation.
 
 ```text
-◆ studying     BSc Computer Science @ ELTE Budapest · GPA 4.67 / 5
-◆ built        assistive vision glasses for blind users (ESP32 + YOLO)
+◆ studying     BSc Computer Science @ ELTE Budapest
 ◆ worked       PLC development intern @ Holcim Azerbaijan
-◆ speaks       English C1 · Turkish B2
+◆ speaks       Azerbaijani & Russian (native) · English C1 · Turkish B2
 ```
 
 <br>
@@ -31,28 +30,31 @@ I build things where **software meets the physical world** — cameras, sensors,
 
 <table align="center">
   <tr>
-    <td align="center" width="50%">
+    <td align="center" colspan="2">
       <sub><b>LANGUAGES</b></sub><br><br>
-      <img src="https://skillicons.dev/icons?i=java,cpp,cs,py&theme=dark" height="48" alt="Java, C++, C#, Python">
-    </td>
-    <td align="center" width="50%">
-      <sub><b>BACKEND · VISION</b></sub><br><br>
-      <img src="https://skillicons.dev/icons?i=fastapi,opencv,html,css&theme=dark" height="48" alt="FastAPI, OpenCV, HTML, CSS">
+      <img src="https://skillicons.dev/icons?i=java,c,cpp,cs,py,haskell,js,ts&theme=dark" height="48" alt="Java, C, C++, C#, Python, Haskell, JavaScript, TypeScript">
     </td>
   </tr>
   <tr>
-    <td align="center">
-      <sub><b>WORKFLOW</b></sub><br><br>
-      <img src="https://skillicons.dev/icons?i=git,github,gitlab,githubactions,docker,linux&theme=dark" height="48" alt="Git, GitHub, GitLab, GitHub Actions, Docker, Linux">
+    <td align="center" width="50%">
+      <sub><b>WEB · BACKEND · VISION</b></sub><br><br>
+      <img src="https://skillicons.dev/icons?i=html,css,fastapi,opencv&theme=dark" height="48" alt="HTML, CSS, FastAPI, OpenCV">
     </td>
-    <td align="center">
+    <td align="center" width="50%">
       <sub><b>HARDWARE · AUTOMATION</b></sub><br><br>
+      <img src="https://skillicons.dev/icons?i=arduino,raspberrypi&theme=dark" height="48" alt="Arduino, Raspberry Pi"><br>
       <img src="https://img.shields.io/badge/ESP32--S3-FF766B?style=flat-square&logo=espressif&logoColor=white&labelColor=161B22" alt="ESP32-S3">
       <img src="https://img.shields.io/badge/PlatformIO-FF766B?style=flat-square&logo=platformio&logoColor=white" alt="PlatformIO">
       <img src="https://img.shields.io/badge/Embedded_C%2FC%2B%2B-B589FF?style=flat-square" alt="Embedded C/C++"><br>
       <img src="https://img.shields.io/badge/Siemens_TIA_Portal-71A9FF?style=flat-square&logo=siemens&logoColor=white" alt="Siemens TIA Portal">
       <img src="https://img.shields.io/badge/PLC-71A9FF?style=flat-square" alt="PLC">
       <img src="https://img.shields.io/badge/YOLO-B589FF?style=flat-square" alt="YOLO">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <sub><b>WORKFLOW · INFRA</b></sub><br><br>
+      <img src="https://skillicons.dev/icons?i=git,github,gitlab,githubactions,docker,linux,cloudflare&theme=dark" height="48" alt="Git, GitHub, GitLab, GitHub Actions, Docker, Linux, Cloudflare">
     </td>
   </tr>
 </table>
@@ -79,7 +81,7 @@ Smart glasses that help blind users walk around obstacles. A thin **ESP32-S3** c
 
 <img src="assets/h-04.svg" width="100%" alt="04 Path">
 
-<img src="assets/timeline.svg" width="100%" alt="Timeline: 2024 PLC Development Intern at Holcim Azerbaijan; 2025 International STEM Olympiad gold; since 2025 BSc CS at ELTE; GDG event at ELTE; now open to internships">
+<img src="assets/timeline.svg" width="100%" alt="Timeline: 2024 PLC Development Intern at Holcim Azerbaijan; 2025 International STEM Olympiad gold; since 2025 BSc Computer Science at ELTE">
 
 <br>
 
@@ -96,18 +98,6 @@ Smart glasses that help blind users walk around obstacles. A thin **ESP32-S3** c
   <img src="https://img.shields.io/badge/Linux%20Essentials-certified-71A9FF?style=flat-square&logo=linux&logoColor=white&labelColor=161B22" alt="Linux Essentials">
   <img src="https://img.shields.io/badge/Cisco-certificate-71A9FF?style=flat-square&logo=cisco&logoColor=white&labelColor=161B22" alt="Cisco certificate">
 </p>
-
-<br>
-
-<img src="assets/h-06.svg" width="100%" alt="06 Right now">
-
-```text
-learning   ▸ Haskell (Functional Programming) · Algorithms & Data Structures II
-             Intro to Machine Learning · Web Programming
-next up    ▸ Sketch2Machine — recognise hand-drawn automata and simulate them
-           ▸ PromptFuzzer   — stress-test LLMs against rephrasings and edge cases
-seeking    ▸ internship / entry-level role · Budapest or remote
-```
 
 <br>
 
