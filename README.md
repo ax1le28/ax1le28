@@ -16,7 +16,11 @@
 
 <img src="assets/h-01.svg" width="100%" alt="01 About">
 
-I build things where **software meets the physical world** — cameras, sensors, controllers, and the code that has to make sense of them. I like taking a messy problem to a working prototype, then making it reliable through debugging and testing. My strongest ground is **object-oriented programming**, **problem solving**, and **hands-on development** across software, embedded systems and industrial automation.
+I build things, break them, figure out why they broke — and make them better.
+
+My comfort zone is the messy middle between code and hardware: automation, embedded systems, things that blink, beep and occasionally catch fire *(only once)*. Lately I've been teaching those things to see — computer vision, machine learning and AI that runs on real devices, not just in notebooks.
+
+Java is my home language (fittingly — friends call me **Java**), but I'll pick up whatever the problem needs.
 
 ```text
 ◆ studying     BSc Computer Science @ ELTE Budapest
