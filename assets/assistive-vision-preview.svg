@@ -1,77 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
-  <title id="title">Assistive vision interface preview</title>
-  <desc id="desc">A dark smart-glasses object detection interface mockup with labels for a doorway, chair, and person.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="490" viewBox="0 0 1200 490" role="img" aria-labelledby="title desc">
+  <title id="title">Assistive Vision Glasses illustration</title>
+  <desc id="desc">A graphic illustration of smart glasses with object detection markers and audio guidance.</desc>
   <defs>
-    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#111b26"/>
-      <stop offset="1" stop-color="#0a1119"/>
-    </linearGradient>
-    <linearGradient id="scene" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#243847"/>
-      <stop offset="1" stop-color="#111c25"/>
-    </linearGradient>
-    <linearGradient id="screenGlow" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#69e2c6"/>
-      <stop offset="1" stop-color="#73adff"/>
-    </linearGradient>
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#b4d9e2" opacity=".15"/>
-    </pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#20243A"/><stop offset="1" stop-color="#111523"/></linearGradient>
+    <linearGradient id="lens" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#37447A"/><stop offset="1" stop-color="#1B264A"/></linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FF766B"/><stop offset=".52" stop-color="#B589FF"/><stop offset="1" stop-color="#5EA7FF"/></linearGradient>
+    <pattern id="dots" width="25" height="25" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#FFFFFF" opacity=".12"/></pattern>
   </defs>
-  <rect width="1200" height="560" rx="26" fill="url(#base)"/>
-  <rect x="1" y="1" width="1198" height="558" rx="25" fill="url(#dots)" stroke="#304554" stroke-width="2"/>
-  <rect x="0" y="0" width="1200" height="10" rx="5" fill="url(#screenGlow)"/>
-  <g font-family="Inter, Arial, sans-serif">
-    <circle cx="42" cy="48" r="8" fill="#72e1c3"/>
-    <text x="64" y="55" fill="#e7f0f5" font-size="20" font-weight="700" letter-spacing="2">SIGHTLINE</text>
-    <text x="210" y="54" fill="#8099a8" font-size="13" letter-spacing="2">ASSISTIVE VISION INTERFACE</text>
-    <rect x="973" y="29" width="185" height="34" rx="17" fill="#1c302e" stroke="#3c7768"/>
-    <text x="1065" y="51" fill="#9be9d1" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="1.4">CONCEPT PREVIEW</text>
+  <rect width="1200" height="490" fill="url(#bg)"/>
+  <rect width="1200" height="490" fill="url(#dots)"/>
+  <rect width="1200" height="8" fill="url(#bar)"/>
+  <text x="60" y="68" fill="#AAB3D4" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="4">01  /  FEATURED PROJECT</text>
+  <path d="M60 89h445" stroke="#485172" stroke-width="2"/>
+  <text x="55" y="196" fill="#FAF9FF" font-family="Arial, Helvetica, sans-serif" font-size="83" font-weight="800" letter-spacing="-4">ASSISTIVE</text>
+  <text x="55" y="283" fill="#FAF9FF" font-family="Arial, Helvetica, sans-serif" font-size="83" font-weight="800" letter-spacing="-4">VISION</text>
+  <text x="60" y="342" fill="#FF9288" font-family="Arial, Helvetica, sans-serif" font-size="41" font-weight="700" letter-spacing="6">GLASSES</text>
+  <text x="60" y="414" fill="#C2CAE1" font-family="Arial, Helvetica, sans-serif" font-size="24">Object detection → spoken guidance</text>
+  <text x="60" y="458" fill="#8992B1" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="2">PROJECT ILLUSTRATION</text>
+  <g transform="translate(740 158)">
+    <path d="M-45 45h-76M380 45h76" stroke="#B7C4F6" stroke-width="17" stroke-linecap="round"/>
+    <rect x="-19" y="0" width="173" height="148" rx="41" fill="url(#lens)" stroke="#B7C4F6" stroke-width="15"/>
+    <rect x="206" y="0" width="173" height="148" rx="41" fill="url(#lens)" stroke="#B7C4F6" stroke-width="15"/>
+    <path d="M154 35q26-28 52 0" fill="none" stroke="#B7C4F6" stroke-width="15"/>
+    <path d="M11 37h38m-38 0v30M124 37H86m38 0v30M11 111h38m-38 0V81M124 111H86m38 0V81" fill="none" stroke="#FF9288" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="67" cy="74" r="15" fill="#FF9288"/>
+    <path d="M236 33h35m-35 0v29M349 33h-35m35 0v29M236 115h35m-35 0V86M349 115h-35m35 0V86" fill="none" stroke="#79BBFF" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="294" cy="74" r="15" fill="#79BBFF"/>
+    <path d="M155 185q25 21 52 0" fill="none" stroke="#B589FF" stroke-width="4" stroke-linecap="round"/>
+    <path d="M125 211q55 46 112 0" fill="none" stroke="#B589FF" stroke-opacity=".6" stroke-width="4" stroke-linecap="round"/>
+    <path d="M94 237q86 68 174 0" fill="none" stroke="#B589FF" stroke-opacity=".3" stroke-width="4" stroke-linecap="round"/>
   </g>
-  <rect x="32" y="84" width="810" height="428" rx="18" fill="url(#scene)" stroke="#293f4b"/>
-  <path d="M32 390L253 260l187 61 184-173 218 143v221H32Z" fill="#1a2b35" opacity=".8"/>
-  <path d="M55 390h780M75 390l80-95 120 46 100-84 160 63 115-110 170 99" fill="none" stroke="#506a74" stroke-width="2" opacity=".7"/>
-  <rect x="610" y="154" width="153" height="235" rx="7" fill="#17242e" stroke="#607b83" stroke-width="3"/>
-  <rect x="632" y="174" width="107" height="194" rx="3" fill="#263e46"/>
-  <path d="M632 260h107" stroke="#6e8f92" stroke-width="3"/>
-  <circle cx="720" cy="270" r="4" fill="#f5ae65"/>
-  <path d="M200 362v-64h76v64M184 362h110M211 298v-32h53v32" fill="#263b42" stroke="#779297" stroke-width="4" stroke-linejoin="round"/>
-  <path d="M235 298l-22 64m42-64 21 64" stroke="#779297" stroke-width="4"/>
-  <circle cx="454" cy="241" r="22" fill="#b7c9c8"/>
-  <path d="M433 270q21-20 42 0l21 93h-83Z" fill="#556c75"/>
-  <path d="M434 289l-29 59m68-59 33 56" stroke="#a9c1c0" stroke-width="8" stroke-linecap="round"/>
-  <path d="M442 358l-9 49m41-49 12 49" stroke="#8aa6aa" stroke-width="9" stroke-linecap="round"/>
-  <rect x="593" y="137" width="188" height="270" rx="10" fill="none" stroke="#6fe0c3" stroke-width="3"/>
-  <rect x="600" y="111" width="142" height="26" rx="7" fill="#163b36"/>
-  <text x="671" y="129" fill="#9ef0d7" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">DOOR · 2.1 M</text>
-  <rect x="174" y="247" width="133" height="170" rx="10" fill="none" stroke="#82b9ff" stroke-width="3"/>
-  <rect x="181" y="221" width="123" height="26" rx="7" fill="#1d3553"/>
-  <text x="242" y="239" fill="#b2d4ff" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">CHAIR · 1.4 M</text>
-  <rect x="408" y="209" width="112" height="215" rx="10" fill="none" stroke="#f4b46d" stroke-width="3"/>
-  <rect x="397" y="183" width="135" height="26" rx="7" fill="#483426"/>
-  <text x="464" y="201" fill="#ffd29b" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle">PERSON · 3.8 M</text>
-  <path d="M55 465h763" stroke="#526d77" stroke-opacity=".55"/>
-  <circle cx="76" cy="487" r="6" fill="#72e1c3"/>
-  <text x="94" y="492" fill="#a9bec8" font-family="Inter, Arial, sans-serif" font-size="12" letter-spacing="1.6">OBJECT RECOGNITION · SPATIAL AWARENESS</text>
-  <rect x="867" y="84" width="301" height="428" rx="18" fill="#131e28" stroke="#293f4b"/>
-  <text x="897" y="126" fill="#e7f0f5" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Nearby</text>
-  <text x="897" y="151" fill="#8399a6" font-family="Inter, Arial, sans-serif" font-size="12">OBJECTS IN VIEW</text>
-  <g font-family="Inter, Arial, sans-serif">
-    <rect x="893" y="178" width="249" height="68" rx="12" fill="#1a2b34"/>
-    <circle cx="918" cy="212" r="7" fill="#6fe0c3"/>
-    <text x="938" y="207" fill="#e5eef1" font-size="14" font-weight="600">Doorway</text>
-    <text x="938" y="228" fill="#8ca3ad" font-size="12">Ahead · about 2.1 m</text>
-    <rect x="893" y="258" width="249" height="68" rx="12" fill="#1a2b34"/>
-    <circle cx="918" cy="292" r="7" fill="#82b9ff"/>
-    <text x="938" y="287" fill="#e5eef1" font-size="14" font-weight="600">Chair</text>
-    <text x="938" y="308" fill="#8ca3ad" font-size="12">Left · about 1.4 m</text>
-    <rect x="893" y="338" width="249" height="68" rx="12" fill="#1a2b34"/>
-    <circle cx="918" cy="372" r="7" fill="#f4b46d"/>
-    <text x="938" y="367" fill="#e5eef1" font-size="14" font-weight="600">Person</text>
-    <text x="938" y="388" fill="#8ca3ad" font-size="12">Right · about 3.8 m</text>
-  </g>
-  <rect x="893" y="431" width="249" height="55" rx="12" fill="#17352f" stroke="#2e665b"/>
-  <path d="M912 451v15m-6-7.5h12m-4-4 4 4-4 4" fill="none" stroke="#8de6ce" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="933" y="454" fill="#a9e9d9" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">AUDIO DESCRIPTION</text>
-  <text x="933" y="472" fill="#799c98" font-family="Inter, Arial, sans-serif" font-size="11">Concept interface · not a live demo</text>
 </svg>
