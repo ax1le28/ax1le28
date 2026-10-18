@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/javidan-bandaliyev-7b3ba6278/"><img src="https://img.shields.io/badge/LinkedIn-connect-8A6A50?style=flat-square&logo=linkedin&logoColor=white&labelColor=161B22" alt="LinkedIn"></a>
-  <a href="https://github.com/ax1le28/zakassomsarobotics"><img src="https://img.shields.io/badge/featured-vision%20glasses-B8733F?style=flat-square&logo=github&logoColor=white&labelColor=161B22" alt="Featured project"></a>
+  <a href="https://github.com/ax1le28/assistive-vision-glasses"><img src="https://img.shields.io/badge/featured-vision%20glasses-B8733F?style=flat-square&logo=github&logoColor=white&labelColor=161B22" alt="Featured project"></a>
   <img src="https://img.shields.io/badge/ELTE-BSc%20CS%20%C2%B7%202025%E2%80%932028-E3A15E?style=flat-square&labelColor=161B22" alt="ELTE BSc Computer Science">
 </p>
 
@@ -77,7 +77,7 @@ I build things where **software meets the physical world** — cameras, sensors,
 
 <img src="assets/h-03.svg" width="100%" alt="03 Featured build">
 
-<a href="https://github.com/ax1le28/zakassomsarobotics">
+<a href="https://github.com/ax1le28/assistive-vision-glasses">
   <img src="assets/vision-pipeline.svg" width="100%" alt="Architecture: ESP32-S3 sends frames and ultrasonic distance to a FastAPI backend running YOLO11n, distance fusion and navigation, which drives speech and left/right buzzers">
 </a>
 
@@ -87,7 +87,7 @@ Smart glasses that help blind users walk around obstacles. A thin **ESP32-S3** c
 
 `Python` `FastAPI` `Ultralytics YOLO` `OpenCV` `ESP32-S3` `PlatformIO` `ElevenLabs TTS` `GitHub Actions`
 
-<a href="https://github.com/ax1le28/zakassomsarobotics"><img src="https://img.shields.io/badge/view_project-%E2%86%97-B8733F?style=for-the-badge&labelColor=161B22" alt="View project"></a>
+<a href="https://github.com/ax1le28/assistive-vision-glasses"><img src="https://img.shields.io/badge/view_project-%E2%86%97-B8733F?style=for-the-badge&labelColor=161B22" alt="View project"></a>
 
 <sub>more builds landing here soon.</sub>
 
