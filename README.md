@@ -3,7 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/javidan-bandaliyev-7b3ba6278/">LinkedIn</a> &nbsp;·&nbsp; <a href="https://github.com/falafell99/zakassomsarobotics">Featured project</a>
+  <a href="https://www.linkedin.com/in/javidan-bandaliyev-7b3ba6278/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-71A9FF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=252B3D" alt="Connect on LinkedIn"></a>
+  <a href="https://github.com/falafell99/zakassomsarobotics"><img src="https://img.shields.io/badge/GITHUB-FEATURED%20PROJECT-FF766B?style=for-the-badge&logo=github&logoColor=white&labelColor=252B3D" alt="View featured project"></a>
 </p>
 
 I build things where **software meets the physical world**. I enjoy turning a messy problem into a working prototype, then improving it through debugging and testing. My strongest ground is **object-oriented programming**, **problem solving**, and **hands-on development** across software, embedded systems, and automation.
@@ -48,13 +49,13 @@ May 2024 – October 2024
 
 ## 04 / Certificates & awards
 
+<p align="center"><strong>International STEM Olympiad · 2025</strong></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/STEM%20OLYMPIAD%202025-GOLD%20%C2%B7%20CODING-F4C542?style=for-the-badge&labelColor=252B3D" alt="International STEM Olympiad 2025 Gold in Coding">
-  <img src="https://img.shields.io/badge/STEM%20OLYMPIAD%202025-GOLD%20%C2%B7%20MATH-F4C542?style=for-the-badge&labelColor=252B3D" alt="International STEM Olympiad 2025 Gold in Mathematics">
+  <img src="https://img.shields.io/badge/GOLD-CODING-F4C542?style=for-the-badge&labelColor=252B3D" alt="Gold in Coding">
+  <img src="https://img.shields.io/badge/GOLD-MATHEMATICS-F4C542?style=for-the-badge&labelColor=252B3D" alt="Gold in Mathematics">
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/SASMO-SILVER%20%C2%B7%20MATHEMATICS-AAB8CA?style=for-the-badge&labelColor=252B3D" alt="SASMO Silver in Mathematics">
   <img src="https://img.shields.io/badge/CISCO-CERTIFICATE-71A9FF?style=for-the-badge&labelColor=252B3D" alt="Cisco certificate">
 </p>
 
-<p align="center"><a href="https://www.linkedin.com/in/javidan-bandaliyev-7b3ba6278/">Connect on LinkedIn ↗</a></p>
