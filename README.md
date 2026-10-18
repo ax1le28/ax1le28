@@ -8,7 +8,6 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/javidan-bandaliyev-7b3ba6278/"><img src="https://img.shields.io/badge/LinkedIn-connect-8A6A50?style=flat-square&logo=linkedin&logoColor=white&labelColor=161B22" alt="LinkedIn"></a>
-  <a href="https://github.com/ax1le28/assistive-vision-glasses"><img src="https://img.shields.io/badge/featured-vision%20glasses-B8733F?style=flat-square&logo=github&logoColor=white&labelColor=161B22" alt="Featured project"></a>
   <img src="https://img.shields.io/badge/ELTE-BSc%20CS%20%C2%B7%202025%E2%80%932028-E3A15E?style=flat-square&labelColor=161B22" alt="ELTE BSc Computer Science">
 </p>
 
@@ -18,7 +17,7 @@
 
 I build things, break them, figure out why they broke — and make them better.
 
-My comfort zone is the messy middle between code and hardware: automation, embedded systems, things that blink, beep and occasionally catch fire *(only once)*. Lately I've been teaching those things to see — computer vision, machine learning and AI that runs on real devices, not just in notebooks.
+My comfort zone is the messy middle between code and hardware: automation, embedded systems, things that blink, beep and occasionally catch fire *(only once)*. I'm just as much at home in AI and machine learning — from training and fine-tuning models to wiring them into systems that actually do something.
 
 Java is my home language (fittingly — friends call me **Java**), but I'll pick up whatever the problem needs.
 
