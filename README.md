@@ -80,47 +80,49 @@ Java is my home language (fittingly — friends call me **Java**), but I'll pick
 
 <img src="assets/h-03.svg" width="100%" alt="03 Featured builds">
 
-<sub><b>03.1</b></sub>
+### 03.1 · Assistive Vision Glasses
+
+Smart glasses that turn camera and distance readings into short spoken directions and left/right buzzer cues.
 
 <a href="https://github.com/ax1le28/assistive-vision-glasses">
   <img src="assets/vision-pipeline.svg" width="100%" alt="Architecture: ESP32-S3 sends frames and ultrasonic distance to a FastAPI backend running YOLO11n, distance fusion and navigation, which drives speech and left/right buzzers">
 </a>
 
-### Assistive Vision Glasses &nbsp;<img src="https://img.shields.io/badge/status-MVP-A3B18A?style=flat-square&labelColor=161B22" alt="status MVP" align="center"> <img src="https://img.shields.io/badge/model-YOLO11n-E3A15E?style=flat-square&labelColor=161B22" alt="YOLO11n" align="center">
+<details>
+<summary>How it works · stack</summary>
 
-Smart glasses that help blind users walk around obstacles. A thin **ESP32-S3** client streams camera frames and **HC-SR04** ultrasonic readings to a **FastAPI** backend; local **YOLO** detection, distance fusion and left / center / right risk scoring turn the scene into short spoken instructions and buzzer patterns — with dedicated stair warnings, anti-flicker smoothing and speech throttling so guidance stays calm.
+An **ESP32-S3** streams camera frames and **HC-SR04** readings to a **FastAPI** backend. Local **YOLO** detection and distance fusion score left, center and right paths; stair warnings, smoothing and speech throttling keep the cues useful.
 
 `Python` `FastAPI` `Ultralytics YOLO` `OpenCV` `ESP32-S3` `PlatformIO` `ElevenLabs TTS` `GitHub Actions`
 
+</details>
+
 <a href="https://github.com/ax1le28/assistive-vision-glasses"><img src="https://img.shields.io/badge/view_project-%E2%86%97-B8733F?style=for-the-badge&labelColor=161B22" alt="View project"></a>
 
-<br>
+---
 
-<sub><b>03.2</b></sub>
+### 03.2 · Sketch2Machine
+
+Turn a hand-drawn state machine into an editable simulation with execution traces and generated test coverage. Four built-in examples run without an API key.
 
 <a href="https://github.com/ax1le28/sketch2machine">
   <img src="assets/sketch-workbench.svg" width="100%" alt="A hand-drawn even-parity state machine becomes a running digital machine with a visible trace and transition coverage">
 </a>
 
-### Sketch2Machine &nbsp;<img src="https://img.shields.io/badge/status-MVP-A3B18A?style=flat-square&labelColor=161B22" alt="status MVP" align="center"> <img src="https://img.shields.io/badge/vision-Claude-E3A15E?style=flat-square&labelColor=161B22" alt="Claude Vision" align="center">
-
-**From paper to a running machine.** Draw states and arrows, then use the workbench to edit the result, fire events, follow the trace and see which transitions the generated tests covered. Four built-in sketches work without an API key.
-
-<br>
+<details>
+<summary>How it works · stack</summary>
 
 <a href="https://github.com/ax1le28/sketch2machine">
   <img src="assets/sketch-pipeline.svg" width="100%" alt="Sketch2Machine pipeline: Claude Vision transcribes a drawing, Java normalizes it, and the browser simulates, analyzes and tests the machine">
 </a>
 
-**Under the hood.** Claude Vision transcribes a photo into a typed Java record; a normalizer resolves labels and records its repairs. The Java engine then simulates the machine, flags ambiguity, dead ends and unreachable states, and generates tests with coverage. Recognizing your own photos requires an Anthropic API key.
+**Claude Vision** transcribes a photo into a typed Java record. The normalizer resolves labels and logs repairs; the Java engine simulates the machine, flags issues and generates coverage tests. Recognizing your own photos requires an Anthropic API key.
 
 `Java 21` `Claude Vision` `Anthropic Java SDK` `Cytoscape.js` `Maven` `JUnit 5` `GitHub Actions`
 
+</details>
+
 <a href="https://github.com/ax1le28/sketch2machine"><img src="https://img.shields.io/badge/view_project-%E2%86%97-B8733F?style=for-the-badge&labelColor=161B22" alt="View project"></a>
-
-<br><br>
-
-<sub>more builds landing here soon.</sub>
 
 <br><br>
 

@@ -44,6 +44,9 @@
       .ink { font-family:'Bradley Hand', 'Comic Sans MS', cursive }
       .eyebrow { font-size:11px; font-weight:700; letter-spacing:2.2px }
       .soft { fill:#9DA7B3 }
+      .lbl { font-size:12px; letter-spacing:2px; fill:#6E7681 }
+      .live { animation:lv 1.6s ease-in-out infinite }
+      @keyframes lv { 50% { opacity:.25 } }
       .flow { stroke-dasharray:7 10; animation:travel 1.6s linear infinite }
       .token { animation:breathe 1.7s ease-in-out infinite }
       @keyframes travel { to { stroke-dashoffset:-17 } }
@@ -54,13 +57,14 @@
   <rect width="1200" height="440" rx="20" fill="url(#background)"/>
   <rect width="1200" height="440" rx="20" fill="url(#grid)"/>
   <rect width="1200" height="3" fill="url(#accent)"/>
-  <circle cx="465" cy="262" r="210" fill="url(#halo)"/>
+  <text x="40" y="48" class="mono lbl">01 · SKETCH</text>
+  <text x="408" y="48" class="mono lbl">02 · RECOGNITION</text>
+  <text x="640" y="48" class="mono lbl">03 · RUNNING MACHINE</text>
+  <circle cx="1150" cy="44" r="5" fill="#A3B18A" class="live"/>
+  <text x="1138" y="48" class="mono" font-size="12" fill="#C2CDA8" text-anchor="end">MVP</text>
 
-  <circle cx="51" cy="41" r="5" fill="#E3A15E"/>
-  <text x="66" y="45" class="mono eyebrow" fill="#E3A15E">SKETCH2MACHINE</text>
-  <text x="50" y="88" class="sans" font-size="30" font-weight="750" fill="#F0F6FC">Draw it. Run it.</text>
-  <text x="51" y="113" class="sans" font-size="15" fill="#AEB7C1">From a paper sketch to a machine you can explore.</text>
-  <text x="1138" y="43" text-anchor="end" class="mono eyebrow" fill="#7D8895">JAVA 21  /  CLAUDE VISION</text>
+  <g transform="translate(0,-60)">
+  <circle cx="465" cy="262" r="210" fill="url(#halo)"/>
 
   <!-- Physical sketch -->
   <g transform="rotate(-2 217 267)" filter="url(#shadow)">
@@ -142,7 +146,13 @@
   <rect x="985" y="311" width="134" height="6" rx="3" fill="#30363D"/>
   <rect x="985" y="311" width="134" height="6" rx="3" fill="#A3B18A"/>
   <text x="985" y="334" class="mono" font-size="10" fill="#A3B18A">4 / 4 transitions tested</text>
+  </g>
 
-  <text x="55" y="424" class="mono eyebrow" fill="#9DA7B3">01  SKETCH ON PAPER</text>
-  <text x="548" y="424" class="mono eyebrow" fill="#9DA7B3">02  EXECUTABLE MACHINE</text>
+  <rect x="40" y="360" width="1120" height="52" rx="12" fill="#161B22" stroke="#21262D"/>
+  <g class="mono" font-size="13" fill="#9DA7B3">
+    <text x="64" y="391"><tspan fill="#D08A54">◆</tspan>  every repair logged in notes</text>
+    <text x="400" y="391"><tspan fill="#EDBE85">◆</tspan>  ambiguity &amp; dead ends flagged</text>
+    <text x="730" y="391"><tspan fill="#F6E8D2">◆</tspan>  generated tests</text>
+    <text x="940" y="391"><tspan fill="#C2CDA8">◆</tspan>  4 demos, no API key</text>
+  </g>
 </svg>
