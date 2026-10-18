@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
+<title id="t">Experience and education timeline</title>
+<desc id="d">2024: PLC Development Intern at Holcim Azerbaijan. 2025: Int’l STEM Olympiad gold in coding and mathematics, SASMO silver. Since September 2025: BSc Computer Science at ELTE Budapest, GPA 4.67 of 5. Helped organize a GDG event at ELTE. Now: looking for internships in Budapest or remote.</desc>
+<defs>
+<linearGradient id="a" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF766B"/><stop offset=".5" stop-color="#B589FF"/><stop offset=".8" stop-color="#71A9FF"/><stop offset="1" stop-color="#3FB950"/></linearGradient>
+<style>
+.m{font-family:ui-monospace,'SF Mono',Menlo,Consolas,monospace}
+.s{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}
+.pulse{animation:p 1.6s ease-in-out infinite}
+@keyframes p{50%{opacity:.2}}
+.run{stroke-dasharray:6 1200;animation:r 4s linear infinite}
+@keyframes r{from{stroke-dashoffset:0}to{stroke-dashoffset:-1160}}
+</style>
+</defs>
+<rect width="1200" height="300" rx="20" fill="#0D1117"/>
+<rect x="20" y="149" width="1160" height="2" rx="1" fill="url(#a)" opacity=".55"/>
+<path d="M20 150 H1180" stroke="#F0F6FC" stroke-width="3" stroke-linecap="round" class="run" opacity=".8"/>
+<g>
+<path d="M120 150 V110" stroke="#FF766B" stroke-opacity=".45" stroke-dasharray="3 4"/>
+<rect x="12" y="24" width="216" height="86" rx="12" fill="#161B22" stroke="#30363D"/>
+<rect x="12" y="24" width="216" height="3" rx="1.5" fill="#FF766B"/>
+<text x="28" y="48" class="m" font-size="11" fill="#FF766B" letter-spacing="1.5">MAY–OCT 2024</text>
+<text x="28" y="69" class="s" font-size="14.5" font-weight="700" fill="#F0F6FC">PLC Development Intern</text>
+<text x="28" y="87" class="s" font-size="12.5" fill="#9DA7B3">Holcim Azerbaijan</text>
+<text x="28" y="103" class="m" font-size="11" fill="#6E7681">Siemens PLC · TIA Portal</text>
+<circle cx="120" cy="150" r="9" fill="#0D1117" stroke="#FF766B" stroke-width="2.5"/>
+<circle cx="120" cy="150" r="3.5" fill="#FF766B"/>
+</g>
+<g>
+<path d="M360 150 V184" stroke="#F4C542" stroke-opacity=".45" stroke-dasharray="3 4"/>
+<rect x="252" y="184" width="216" height="86" rx="12" fill="#161B22" stroke="#30363D"/>
+<rect x="252" y="184" width="216" height="3" rx="1.5" fill="#F4C542"/>
+<text x="268" y="208" class="m" font-size="11" fill="#F4C542" letter-spacing="1.5">2025</text>
+<text x="268" y="229" class="s" font-size="14.5" font-weight="700" fill="#F0F6FC">Int’l STEM Olympiad</text>
+<text x="268" y="247" class="s" font-size="12.5" fill="#9DA7B3">Gold · coding &amp; mathematics</text>
+<text x="268" y="263" class="m" font-size="11" fill="#6E7681">+ SASMO silver · math</text>
+<circle cx="360" cy="150" r="9" fill="#0D1117" stroke="#F4C542" stroke-width="2.5"/>
+<circle cx="360" cy="150" r="3.5" fill="#F4C542"/>
+</g>
+<g>
+<path d="M600 150 V110" stroke="#B589FF" stroke-opacity=".45" stroke-dasharray="3 4"/>
+<rect x="492" y="24" width="216" height="86" rx="12" fill="#161B22" stroke="#30363D"/>
+<rect x="492" y="24" width="216" height="3" rx="1.5" fill="#B589FF"/>
+<text x="508" y="48" class="m" font-size="11" fill="#B589FF" letter-spacing="1.5">SEP 2025 → 2028</text>
+<text x="508" y="69" class="s" font-size="14.5" font-weight="700" fill="#F0F6FC">BSc Computer Science</text>
+<text x="508" y="87" class="s" font-size="12.5" fill="#9DA7B3">ELTE, Budapest</text>
+<text x="508" y="103" class="m" font-size="11" fill="#6E7681">GPA 4.67 / 5</text>
+<circle cx="600" cy="150" r="9" fill="#0D1117" stroke="#B589FF" stroke-width="2.5"/>
+<circle cx="600" cy="150" r="3.5" fill="#B589FF"/>
+</g>
+<g>
+<path d="M840 150 V184" stroke="#71A9FF" stroke-opacity=".45" stroke-dasharray="3 4"/>
+<rect x="732" y="184" width="216" height="86" rx="12" fill="#161B22" stroke="#30363D"/>
+<rect x="732" y="184" width="216" height="3" rx="1.5" fill="#71A9FF"/>
+<text x="748" y="208" class="m" font-size="11" fill="#71A9FF" letter-spacing="1.5">COMMUNITY</text>
+<text x="748" y="229" class="s" font-size="14.5" font-weight="700" fill="#F0F6FC">GDG event @ ELTE</text>
+<text x="748" y="247" class="s" font-size="12.5" fill="#9DA7B3">helped organize</text>
+<text x="748" y="263" class="m" font-size="11" fill="#6E7681">community · events</text>
+<circle cx="840" cy="150" r="9" fill="#0D1117" stroke="#71A9FF" stroke-width="2.5"/>
+<circle cx="840" cy="150" r="3.5" fill="#71A9FF"/>
+</g>
+<g>
+<path d="M1080 150 V110" stroke="#3FB950" stroke-opacity=".45" stroke-dasharray="3 4"/>
+<rect x="972" y="24" width="216" height="86" rx="12" fill="#161B22" stroke="#30363D"/>
+<rect x="972" y="24" width="216" height="3" rx="1.5" fill="#3FB950"/>
+<text x="988" y="48" class="m" font-size="11" fill="#3FB950" letter-spacing="1.5">NOW</text>
+<text x="988" y="69" class="s" font-size="14.5" font-weight="700" fill="#F0F6FC">Looking for internships</text>
+<text x="988" y="87" class="s" font-size="12.5" fill="#9DA7B3">Budapest or remote</text>
+<text x="988" y="103" class="m" font-size="11" fill="#6E7681">software · embedded</text>
+<circle cx="1080" cy="150" r="9" fill="#0D1117" stroke="#3FB950" stroke-width="2.5"/>
+<circle cx="1080" cy="150" r="3.5" fill="#3FB950" class="pulse"/>
+</g>
+</svg>
