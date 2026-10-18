@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title description">
+  <title id="title">Sketch2Machine — from paper to a running state machine</title>
+  <desc id="description">A hand-drawn even parity automaton on paper flows into a digital workbench. The workbench shows an active state, an execution trace, and transition coverage.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#111820"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="paper" x2="1" y2="1">
+      <stop stop-color="#FFF8EA"/>
+      <stop offset="1" stop-color="#EAD8BD"/>
+    </linearGradient>
+    <linearGradient id="accent" x2="1">
+      <stop stop-color="#B8733F"/>
+      <stop offset=".55" stop-color="#E3A15E"/>
+      <stop offset="1" stop-color="#F1DEC0"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#E3A15E" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#E3A15E" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#F1DEC0" stroke-opacity=".035"/>
+    </pattern>
+    <pattern id="rules" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M0 29.5H400" stroke="#93A9B1" stroke-opacity=".35"/>
+    </pattern>
+    <marker id="ink-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#35516A"/>
+    </marker>
+    <marker id="ui-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#D6A16C"/>
+    </marker>
+    <clipPath id="paper-clip"><rect x="52" y="142" width="330" height="250" rx="13"/></clipPath>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="13" stdDeviation="13" flood-color="#000" flood-opacity=".36"/>
+    </filter>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <style>
+      .sans { font-family:Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif }
+      .mono { font-family:ui-monospace, 'SF Mono', Menlo, Consolas, monospace }
+      .ink { font-family:'Bradley Hand', 'Comic Sans MS', cursive }
+      .eyebrow { font-size:11px; font-weight:700; letter-spacing:2.2px }
+      .soft { fill:#9DA7B3 }
+      .flow { stroke-dasharray:7 10; animation:travel 1.6s linear infinite }
+      .token { animation:breathe 1.7s ease-in-out infinite }
+      @keyframes travel { to { stroke-dashoffset:-17 } }
+      @keyframes breathe { 50% { opacity:.48 } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="440" rx="20" fill="url(#background)"/>
+  <rect width="1200" height="440" rx="20" fill="url(#grid)"/>
+  <rect width="1200" height="3" fill="url(#accent)"/>
+  <circle cx="465" cy="262" r="210" fill="url(#halo)"/>
+
+  <circle cx="51" cy="41" r="5" fill="#E3A15E"/>
+  <text x="66" y="45" class="mono eyebrow" fill="#E3A15E">SKETCH2MACHINE</text>
+  <text x="50" y="88" class="sans" font-size="30" font-weight="750" fill="#F0F6FC">Draw it. Run it.</text>
+  <text x="51" y="113" class="sans" font-size="15" fill="#AEB7C1">From a paper sketch to a machine you can explore.</text>
+  <text x="1138" y="43" text-anchor="end" class="mono eyebrow" fill="#7D8895">JAVA 21  /  CLAUDE VISION</text>
+
+  <!-- Physical sketch -->
+  <g transform="rotate(-2 217 267)" filter="url(#shadow)">
+    <rect x="52" y="142" width="330" height="250" rx="13" fill="url(#paper)"/>
+    <g clip-path="url(#paper-clip)">
+      <rect x="52" y="142" width="330" height="250" fill="url(#rules)"/>
+      <path d="M86 142V392" stroke="#D98E82" stroke-opacity=".55" stroke-width="2"/>
+      <circle cx="69" cy="175" r="5" fill="#0D1117" opacity=".25"/>
+      <circle cx="69" cy="342" r="5" fill="#0D1117" opacity=".25"/>
+      <text x="105" y="177" class="ink" font-size="19" font-weight="700" fill="#35516A">even parity?</text>
+      <path d="M110 190Q183 185 253 189" fill="none" stroke="#35516A" stroke-opacity=".38" stroke-width="1.5"/>
+      <g fill="none" stroke="#35516A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M100 279Q113 275 126 278" marker-end="url(#ink-arrow)"/>
+        <circle cx="164" cy="275" r="36"/>
+        <circle cx="164" cy="275" r="30" stroke-width="1.5"/>
+        <circle cx="299" cy="275" r="36"/>
+        <path d="M197 256Q230 220 266 256" marker-end="url(#ink-arrow)"/>
+        <path d="M266 296Q229 330 198 296" marker-end="url(#ink-arrow)"/>
+        <path d="M142 246Q122 218 159 213Q187 214 180 239" marker-end="url(#ink-arrow)"/>
+        <path d="M286 240Q290 211 317 220Q341 231 317 250" marker-end="url(#ink-arrow)"/>
+      </g>
+      <g class="ink" fill="#35516A" font-weight="700">
+        <text x="141" y="282" font-size="18">Even</text>
+        <text x="284" y="282" font-size="18">Odd</text>
+        <text x="228" y="235" font-size="17">1</text>
+        <text x="228" y="327" font-size="17">1</text>
+        <text x="153" y="211" font-size="16">0</text>
+        <text x="316" y="213" font-size="16">0</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Transformation -->
+  <path d="M398 267H514" fill="none" stroke="#3B4651" stroke-width="2"/>
+  <path d="M398 267H514" class="flow" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="456" cy="267" r="22" fill="#161B22" stroke="#E3A15E" stroke-opacity=".65"/>
+  <path d="M448 267H464M457 260L464 267L457 274" fill="none" stroke="#F1DEC0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="456" y="239" text-anchor="middle" class="mono" font-size="10" letter-spacing="1.6" fill="#D6A16C">RECOGNIZE</text>
+
+  <!-- Running workbench -->
+  <rect x="529" y="137" width="628" height="253" rx="15" fill="#161B22" stroke="#34404B" stroke-width="1.5" filter="url(#shadow)"/>
+  <path d="M529 172H1157" stroke="#34404B"/>
+  <circle cx="551" cy="154" r="4" fill="#A35D51"/>
+  <circle cx="566" cy="154" r="4" fill="#BDA05F"/>
+  <circle cx="581" cy="154" r="4" fill="#87A391"/>
+  <text x="603" y="159" class="mono" font-size="12" fill="#C9D1D9">even-parity.machine</text>
+  <rect x="1038" y="144" width="97" height="21" rx="10.5" fill="#25352E"/>
+  <circle cx="1052" cy="154.5" r="3" fill="#A3B18A"/>
+  <text x="1062" y="159" class="mono" font-size="10" fill="#C2D6BC">RUNNING</text>
+
+  <rect x="548" y="190" width="403" height="154" rx="9" fill="#10161D" stroke="#2C3741"/>
+  <rect x="548" y="190" width="403" height="154" rx="9" fill="url(#grid)"/>
+  <g fill="none" stroke="#D6A16C" stroke-width="2.5" stroke-linecap="round">
+    <path d="M568 266H632" marker-end="url(#ui-arrow)"/>
+    <path d="M715 244Q754 206 797 244" marker-end="url(#ui-arrow)"/>
+    <path d="M797 285Q754 323 715 285" marker-end="url(#ui-arrow)"/>
+    <path d="M649 231Q635 210 668 203Q701 205 688 231" marker-end="url(#ui-arrow)"/>
+    <path d="M813 231Q803 204 837 204Q868 208 851 232" marker-end="url(#ui-arrow)"/>
+  </g>
+  <text x="581" y="255" class="mono" font-size="10" fill="#AEB7C1">START</text>
+  <text x="754" y="220" text-anchor="middle" class="mono" font-size="12" fill="#E3A15E">1</text>
+  <text x="754" y="316" text-anchor="middle" class="mono" font-size="12" fill="#E3A15E">1</text>
+  <text x="669" y="203" text-anchor="middle" class="mono" font-size="11" fill="#E3A15E">0</text>
+  <text x="833" y="201" text-anchor="middle" class="mono" font-size="11" fill="#E3A15E">0</text>
+  <circle cx="675" cy="266" r="48" fill="#E3A15E" opacity=".24" filter="url(#glow)" class="token"/>
+  <circle cx="675" cy="266" r="39" fill="#2D2824" stroke="#E3A15E" stroke-width="3"/>
+  <circle cx="675" cy="266" r="33" fill="none" stroke="#E3A15E" stroke-opacity=".75"/>
+  <circle cx="837" cy="266" r="37" fill="#1B232B" stroke="#71808D" stroke-width="2"/>
+  <text x="675" y="272" text-anchor="middle" class="sans" font-size="18" font-weight="700" fill="#FFF5E6">Even</text>
+  <text x="837" y="272" text-anchor="middle" class="sans" font-size="18" font-weight="650" fill="#D0D7DE">Odd</text>
+
+  <rect x="967" y="190" width="171" height="154" rx="9" fill="#10161D" stroke="#2C3741"/>
+  <text x="985" y="214" class="mono eyebrow" font-size="10" fill="#81909B">EXECUTION</text>
+  <text x="985" y="241" class="sans" font-size="19" font-weight="700" fill="#F1DEC0">Even</text>
+  <text x="1040" y="240" class="mono" font-size="11" fill="#A3B18A">✓ accepting</text>
+  <path d="M985 253H1120" stroke="#2C3741"/>
+  <text x="985" y="276" class="mono" font-size="11" fill="#AEB7C1">TRACE</text>
+  <text x="985" y="297" class="mono" font-size="12" fill="#E8C29B">Even → Odd → Even</text>
+  <rect x="985" y="311" width="134" height="6" rx="3" fill="#30363D"/>
+  <rect x="985" y="311" width="134" height="6" rx="3" fill="#A3B18A"/>
+  <text x="985" y="334" class="mono" font-size="10" fill="#A3B18A">4 / 4 transitions tested</text>
+
+  <text x="55" y="424" class="mono eyebrow" fill="#9DA7B3">01  SKETCH ON PAPER</text>
+  <text x="548" y="424" class="mono eyebrow" fill="#9DA7B3">02  EXECUTABLE MACHINE</text>
+</svg>
