@@ -128,10 +128,12 @@ Turn a hand-drawn state machine into an editable simulation with execution trace
 
 ### 03.3 · PromptFuzzer
 
+<img src="https://img.shields.io/badge/status-in_development-E3A15E?style=flat-square&labelColor=161B22" alt="Status: in development">
+
 Fuzz testing for LLM features. One seed example becomes dozens of adversarial inputs, each sent to a real model and graded by code first. The result is a reliability report that shows exactly where the prompt breaks.
 
 <a href="https://github.com/ax1le28/fuzzer">
-  <img src="assets/fuzzer-pipeline.svg" width="100%" alt="PromptFuzzer: a seed input with expected JSON fans out into typo, slang, negation, injection and ambiguity variants; each is graded, giving 3 of 5 passed with a 95% confidence interval">
+  <img src="assets/fuzzer-pipeline.svg" width="100%" alt="PromptFuzzer: a terminal streams fuzzed inputs with pass and fail marks, next to a sample reliability report comparing two models at 92.6% and 55.3% with 95% confidence intervals and pass rates by category">
 </a>
 
 <details>
