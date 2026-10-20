@@ -124,6 +124,27 @@ Turn a hand-drawn state machine into an editable simulation with execution trace
 
 <a href="https://github.com/ax1le28/sketch2machine"><img src="https://img.shields.io/badge/view_project-%E2%86%97-B8733F?style=for-the-badge&labelColor=161B22" alt="View project"></a>
 
+---
+
+### 03.3 · PromptFuzzer
+
+Fuzz testing for LLM features. One seed example becomes dozens of adversarial inputs, each sent to a real model and graded by code first. The result is a reliability report that shows exactly where the prompt breaks.
+
+<a href="https://github.com/ax1le28/fuzzer">
+  <img src="assets/fuzzer-pipeline.svg" width="100%" alt="PromptFuzzer: a seed input with expected JSON fans out into typo, slang, negation, injection and ambiguity variants; each is graded, giving 3 of 5 passed with a 95% confidence interval">
+</a>
+
+<details>
+<summary>How it works · stack</summary>
+
+An LLM writes paraphrases, negations, ambiguous and prompt-injection variants of your examples, and seeded rules add typos and noise. Every answer is parsed, **schema-validated and diffed field by field**. An AI judge is used only for free text, and its verdicts are labelled as such. Failures are grouped by cause, each with a suggested prompt fix. Pass rates come with **95% Wilson intervals**. Budgets, rate limits and fail-fast connection checks keep runs cheap and honest. It works with free Gemini or Groq keys or a local Ollama model, and the demo report needs no key at all.
+
+`Java 21` `Javalin` `Anthropic Java SDK` `OpenAI-compatible APIs` `Ollama` `JUnit 5` `GitHub Actions`
+
+</details>
+
+<a href="https://github.com/ax1le28/fuzzer"><img src="https://img.shields.io/badge/view_project-%E2%86%97-B8733F?style=for-the-badge&labelColor=161B22" alt="View project"></a>
+
 <br><br>
 
 <img src="assets/h-04.svg" width="100%" alt="04 Path">
